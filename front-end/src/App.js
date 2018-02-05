@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import 'reset-css/reset.css';
 
 import Navigation from './components/Navigation';
 import Home from './components/Home';
@@ -16,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div id="app">
          <Route startsWith path="/theater" component={() => (<Navigation />) }/>
          <Switch>
             <Route exact path="/theater" component={() => ( <Home /> )} />

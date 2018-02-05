@@ -1,28 +1,24 @@
-.App {
-  text-align: center;
+/* ---------------------- App ---------------------- */
+
+#app {
+	width: 1150px;
+	margin: auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+/* ---------------------- Movie Component ---------------------- */
+
+#movie {
+
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+#movie-poster {
+	display: inline-block;
+	width: 270px;
+	height: 410px;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#movie-details {
+	display: inline-block;
+	width: 540px;
+	height: 410px;
 }
