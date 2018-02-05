@@ -1,14 +1,53 @@
-/* ---------------------- App ---------------------- */
+/* ---------------------- General ---------------------- */
+
+body {
+	height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+	background: #000000;
+	background: -webkit-linear-gradient(#000000, #2d2d2d) fixed;
+    background: -moz-linear-gradient(#000000, #2d2d2d) fixed;
+    background: -ms-linear-gradient(#000000, #2d2d2d) fixed;
+    background: -o-linear-gradient(#000000, #2d2d2d) fixed;
+    background: linear-gradient(#000000, #2d2d2d) fixed;
+}
 
 #app {
 	width: 1150px;
 	margin: auto;
 }
 
+header {
+	height: 150px;
+}
+
+/* ---------------------- Fonts ---------------------- */
+
+h3 {
+	font-size: 40px;
+	color: #daa520;
+}
+
+h4 {
+	font-size: 20px;
+	color: #ffd700;
+	text-align: center;
+	padding: 17px 0 0 0;
+}
+
+p {
+	color: #fefefe;
+}
+
 /* ---------------------- Movie Component ---------------------- */
 
-#movie {
-
+#movie-result {
+	display: flex;
+	width: 810px;
+	height: 410px;
 }
 
 #movie-poster {
@@ -21,4 +60,14 @@
 	display: inline-block;
 	width: 540px;
 	height: 410px;
+}
+
+#movie-audience {
+	background: rgba(0, 0, 0, 0.3);
+	height: 50px;
+}
+
+#movie-information {
+	background: rgba(0, 0, 0, 0.3);
+	height: 360px;
 }
